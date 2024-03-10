@@ -1,0 +1,104 @@
+.section_1{
+    background-color:#1F2E35;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content{
+    display: flex;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+.product{
+    display: flex;
+}
+.product_2{
+    font-size: 30px;
+    margin: 0;
+    color: #fff;
+}
+.box_1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ul_text{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.img_1{
+    width: 40px;
+    height: 36px;
+}
+.img_2{
+    width: 32px;
+    height: 32px;
+}
+.pricing{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.box_2{
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_sign{
+    width: 110px;
+    height: 43px;
+    background-color: #1F2E35;
+    border-radius: 5px;
+    border: #fff 1px solid;
+    color: #fff;
+    font-size: 16px;
+}
+.btn_sign_up{
+    width: 110px;
+    height: 43px;
+    background-color: #02897A;
+    border-radius: 5px;
+    border: #02897A;
+    color: #fff; 
+    font-size: 16px;
+}
+.content_3{
+    display: flex;
+    gap: 72px;
+    padding-bottom: 50px;
+}
+
+.theme {
+    display: inline-block;
+}
+
+.menu_btn {
+    display: none;
+    background-color: #1F2E35;
+    border: none;
+}
+
+@media screen and (max-width: 896px) {
+    .ul_text {
+        display: none;
+    }
+    .btn_sign {
+        display: none;
+    }
+    .btn_sign_up {
+        display: none;
+    }
+    .theme {
+        display: none;
+    }
+
+    .menu_btn {
+        display: block;
+    }
+}

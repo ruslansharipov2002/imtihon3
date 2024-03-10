@@ -1,0 +1,11 @@
+@import url(./global.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../footer/footer.css);
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}/*# sourceMappingURL=global.css.map */
